@@ -1,0 +1,16 @@
+{
+  "autoload":{
+
+    "psr-4":{
+         "App\\":"src\\BITM\\SEID175166\\"
+    }
+  },
+
+  "require": {
+    "mpdf/mpdf": "v7.0.0-RC1",
+    "phpoffice/phpexcel": "1.8.1",
+    "phpmailer/phpmailer": "v6.0.1"
+  }
+
+
+}

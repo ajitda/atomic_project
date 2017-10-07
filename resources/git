@@ -1,0 +1,29 @@
+Git global setup
+
+git config --global user.name "Abdul kadher Akib"
+git config --global user.email "akakib.ctg@gmail.com"
+
+Create a new repository
+
+git clone https://gitlab.com/akakib/Atomic_Project_BITM.git
+cd Atomic_Project_BITM
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+
+Existing folder
+
+cd existing_folder
+git init
+git remote add origin https://gitlab.com/akakib/Atomic_Project_BITM.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+Existing Git repository
+
+cd existing_repo
+git remote add origin https://gitlab.com/akakib/Atomic_Project_BITM.git
+git push -u origin --all
+git push -u origin --tags
